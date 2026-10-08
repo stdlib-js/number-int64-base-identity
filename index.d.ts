@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,22 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var Int64 = require( '@stdlib/number-int64-ctor' );
-var addon = require( './../src/addon.node' );
-
-
-// MAIN //
+import { Int64 } from '@stdlib/types/number';
 
 /**
 * Evaluates the identity function for a 64-bit signed integer `x`.
 *
-* @private
-* @param {Int64} x - input value
-* @returns {Int64} input value
+* @param x - input value
+* @returns input value
 *
 * @example
 * var Int64 = require( '@stdlib/number-int64-ctor' );
@@ -61,11 +56,9 @@ var addon = require( './../src/addon.node' );
 * var v = identity( x );
 * // returns <Int64>[ -1000000000000n ]
 */
-function identity( x ) {
-	return new Int64( addon( x.valueOf() ) );
-}
+declare function identity( x: Int64 ): Int64;
 
 
 // EXPORTS //
 
-module.exports = identity;
+export = identity;
