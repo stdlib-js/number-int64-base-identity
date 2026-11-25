@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-15)
+## Unreleased (2026-11-25)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`d4855f5`](https://github.com/stdlib-js/stdlib/commit/d4855f53879f5eff85801596b21a52fe3f8281ad) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`41923f7`](https://github.com/stdlib-js/stdlib/commit/41923f7e9c3398dd79ad1a9e0f7202d4d2b6ce50) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`7044cb6`](https://github.com/stdlib-js/stdlib/commit/7044cb6060ff971420a3ae07813849de316c96ae) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
